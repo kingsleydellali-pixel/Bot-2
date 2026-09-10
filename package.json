@@ -1,0 +1,29 @@
+{
+  "name": "king-xd-bot",
+  "version": "10.0.0",
+  "description": "KING-XD Bot v10 — WhatsApp Multi-Device Bot with Downloader, Group Manager, Protection & Web Dashboard",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "node -e \"console.log('No build step required')\""
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "@hapi/boom": "^10.0.1",
+    "express": "^4.21.2",
+    "pino": "^9.6.0",
+    "qrcode": "^1.5.4",
+    "sharp": "^0.33.5",
+    "axios": "^1.7.9",
+    "node-cache": "^5.1.2",
+    "fluent-ffmpeg": "^2.1.3",
+    "ffmpeg-static": "^5.2.0",
+    "ytdlp-nodejs": "^1.0.0",
+    "cheerio": "^1.0.0"
+  },
+  "keywords": ["whatsapp", "bot", "baileys", "multi-device", "downloader"],
+  "license": "MIT"
+}
